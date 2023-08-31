@@ -1,0 +1,117 @@
+/* styles.css */
+  /* styles.css */
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    text-align: center;
+    color: #fff;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* styles.css */
+.section {
+    background-color: #fff;
+    padding: 80px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .section:hover {
+    transform: scale(1.05);
+  }
+  
+  .feature_section {
+    text-align: center;
+    padding: 4rem 0;
+    background-color: #f8f8f8;
+  }
+  .feature_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .feature_box {
+    flex: 1 1 calc(50% - 0.5rem);
+    border: 3px solid #e74c3c;
+    border-radius: 10px;
+    padding: 1.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  .feature_num {
+    font-size: 1.5rem;
+    color: #e74c3c;
+  }
+  .feature_text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  /* 既存のスタイルに追加 */
+.header-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    margin: 10px; /* マージンを調整 */
+  }
+  
+  .logo img {
+    max-width: 150px; /* ロゴの最大幅を指定 */
+    width: auto;
+    height: auto;
+  }
+  
+  .buttons {
+    display: flex; /* ログインボタンと無料会員登録ボタンを横並びに配置 */
+    gap: 10px; /* ボタン間の間隔 */
+    margin-left: auto;
+  
+  }
+  
+  .login-button a,
+  .signup-button a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  .login-button,
+  .signup-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #3f51b5;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+
+.portfolio-link a {
+  color: #333;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s ease;
+}
+
+  
+.portfolio-link a:hover {
+      color: #ff9900; /* ホバー時の色 */
+    }
+
+
