@@ -1,0 +1,238 @@
+/* ナビゲーションのスタイル */
+nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  /* ナビゲーションバーのスタイル */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end; /* 右寄せにする */
+  }
+  
+  nav li {
+    margin-left: 20px; /* 左側のマージンを追加 */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* アイコンのスタイル */
+  .profile-icon {
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+  }
+  
+  .profile-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* プロフィールアイコンを右に寄せる */
+  .profile-icon {
+    margin-left: auto;
+  }
+  
+  .profile img {
+    width: 25%;
+    height: auto;
+  }
+  
+  .header h1{
+    text-align: center;
+  }
+  
+  .li{
+    text-align: right;
+  }
+  
+  /* ボタンのスタイル */
+  .edit-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  
+  .edit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* 特集求人のスタイル */
+  .featured-jobs {
+    /* スタイルの設定 */
+  }
+  
+  /* プロジェクトのスタイル */
+  .projects {
+    /* スタイルの設定 */
+  }
+  
+  /* その他のスタイル設定 */
+  
+  /* ボタンのスタイル */
+  .post-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .post-button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  /* post.htmlについて */
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .post-form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  #post-text {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+  }
+  button a{
+    text-decoration: none;
+    color: white;
+
+  }
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* 既存のスタイルに追加 */
+  .user-buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: 20px;
+    justify-content: flex-end; /* 右寄せ */
+    padding: 10px 0;
+  }
+  
+  .login-button,
+  .signup-button {
+    padding: 8px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* ホバーエフェクト */
+  .login-button:hover,
+  .signup-button:hover {
+    background-color: #555;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #555;
+  }
+  
+  /* 既存のスタイルに追加 */
+  .login-button a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .login-button a:hover {
+    color: #eee; /* ホバーエフェクトの色 */
+  }
+  
+  /* 既存のスタイルに追加 */
+  .logo {
+    margin: 10px 10px;
+  }
+  
+  .logo img {
+    max-width: 200px; /* ロゴの最大幅を指定 */
+  }
+  
